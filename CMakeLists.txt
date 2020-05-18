@@ -5,7 +5,7 @@ set(QT_MIN_VERSION "5.9.0")
 
 ################# set KDE specific information #################
 
-find_package(ECM 5.40.0 REQUIRED NO_MODULE)
+find_package(ECM 5.39.0 REQUIRED NO_MODULE)
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${ECM_MODULE_PATH} ${ECM_KDE_MODULE_DIR})
 
 find_package(Qt5 ${QT_MIN_VERSION} CONFIG REQUIRED COMPONENTS Core DBus Quick Widgets QuickControls2)
